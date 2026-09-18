@@ -1,0 +1,102 @@
+:root{
+    --color-light:#F8EDE3;
+    --color-dark:#C5705D;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Poppins, serif;
+}
+
+.register-container{
+    width:400px;
+    background-color:#F8EDE3;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid transparent;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-bottom:20px;
+}
+
+.register-container:hover{
+    border:2px solid var(--color-dark);
+    transition: 500ms;
+}
+
+.isi-form{
+    width:90%;
+    margin:0 auto;
+    margin-top: 30px;
+}
+
+.form-input{
+    display: block;
+    margin-block: 10px;
+    height:36px;
+    width: 100%;
+    padding-left: 5px;
+}
+
+.form-btn{
+    display: block;
+    width:100%;
+    height: 40px;
+    margin-top: 20px;
+    transition: 0.5s;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.form-btn:hover{
+    background-color:var(--color-dark);
+    color:var(--color-light);
+    transition: ease-in-out;
+    transition: 0.5s;
+}
+
+.isi-form select{
+    width:30%;
+    height:32px;
+    padding-left:5px;
+}
+
+.isi-form p, .isi-form a{
+    font-size: 12px;
+}
+
+.isi-form a{
+    text-decoration: none;
+    color: var(--color-dark);
+}
+
+.isi-form p{
+    padding-right:2px;
+    display: inline; 
+}
+
+#register-form h3{
+    text-transform: uppercase;
+    font-size: 24px;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:10px;
+    background-color: #C5705D;
+}
+
+.error-msg{
+    margin:10px 0;
+    display: block;
+    background:var(--color-dark);
+    font-size: 20px;
+    height:30px;
+    text-align:center;
+}
+    
