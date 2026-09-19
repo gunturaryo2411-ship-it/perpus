@@ -2,6 +2,7 @@
 
 Aplikasi web untuk mengelola data anggota perpustakaan.
 
+[Dashboard](htdoc/perpus/dashboard.png)
 ## Teknologi
 
 - HTML5
